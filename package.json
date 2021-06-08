@@ -1,0 +1,23 @@
+{
+  "name": "validate-branch-name-test",
+  "description": "Trying the https://github.com/JsonMa/validate-branch-name to validate the branch names in guthub.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekkumw/validate-branch-name-test.git"
+  },
+  "author": "William Thekkumpurath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thekkumw/validate-branch-name-test/issues"
+  },
+  "homepage": "https://github.com/thekkumw/validate-branch-name-test#readme",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "validate-branch-name": "^1.0.6"
+  }
+}
